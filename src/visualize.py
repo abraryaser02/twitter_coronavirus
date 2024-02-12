@@ -21,7 +21,7 @@ from matplotlib.font_manager import FontProperties
 
 # Customize font settings
 
-font_path = '/home/ayaa2021/twitter_coronavirus/fonts/NotoSerif-Regular.ttf'
+font_path = '/home/ayaa2021/twitter_coronavirus/fonts/NotoSerif-SemiBold.ttf'
 font = FontProperties(fname=font_path)
 
 # open the input path
@@ -35,7 +35,7 @@ if args.percent:
 
 # sort the current values
 items = sorted(counts[args.key].items(), key=lambda item: (item[1],item[0]), reverse=True)[:10]
-
+items = reversed(items)
 keys, values = zip(*items)
 
 # plot the graph
