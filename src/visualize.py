@@ -54,7 +54,7 @@ images_folder = os.path.join(os.path.expanduser('~'), 'twitter_coronavirus', 'im
 os.makedirs(images_folder, exist_ok=True)
 
 # Save the plot to a PNG file in the images folder
-output_path = os.path.join(images_folder, f'top_10_{args.key}_counts.png')
+output_path = os.path.join(images_folder, f'top_10_{args.key}{args.input_path}_counts.png')
 plt.savefig(output_path)
 
 # Show the plot
