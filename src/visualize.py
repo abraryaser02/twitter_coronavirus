@@ -2,6 +2,7 @@
 
 # command line args
 import os
+import re
 import json
 import matplotlib 
 matplotlib.use('Agg')
@@ -22,7 +23,13 @@ from matplotlib.font_manager import FontProperties
 # Customize font settings
 
 font_path = '/home/ayaa2021/twitter_coronavirus/fonts/NotoSerif-SemiBold.ttf'
-font = FontProperties(fname=font_path)
+korean_path = '/home/ayaa2021/twitter_coronavirus/fonts/NotoSansKR-SemiBold.ttf'
+
+korean_pattern = re.compile('[ㄱ-ㅎ가-힣]')
+if korean_pattern.search(args.key):
+    font = FontProperties(fname=korean_path)
+else:
+    font = font = FontProperties(fname=font_path)
 
 # open the input path
 with open(args.input_path) as f:
