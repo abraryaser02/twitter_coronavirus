@@ -61,9 +61,3 @@ plt.savefig(output_path)
 plt.show()
 plt.close()
 
-if args.percent:
-    for key, value in items:
-        print(f"{key}: {value*100:.2f}%")
-else:
-    for key, value in items:
-        print(f"{key}: {value}")
