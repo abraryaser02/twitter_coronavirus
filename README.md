@@ -75,19 +75,19 @@ Grouping these tweets by the hashtags `#coronavirus` and `#코로나바이러스
 
 ## Results
 
-![Top10Countries#Coronavirus] ./images/top_10_#coronavirusreduced.country_counts.png
+![Top10Countries#Coronavirus](./images/top_10_#coronavirusreduced.country_counts.png)
 
 The U.S. being the first country is not surprising. However, India beats Great Britain in tweets containing `#coronavirus`. India has the largest poulation of non-native English speakers in the world, so this graph shows that not all tweets containing English hashtags are necessarily from the west. 
 
-![Top10countries#CornavirusinKorean] ./images/top_10_#코로나바이러스_counts.png
+![Top10countries#CornavirusinKorean](./images/top_10_#코로나바이러스_counts.png)
 
 Again, South Korea being #1 is not surprising. However, we can see some other countries with Korean-speaking populations too!
 
-![Top10lang#coronavirus] ./images/top_10_#coronavirusreduced.lang_counts.png 
+![Top10lang#coronavirus](./images/top_10_#coronavirusreduced.lang_counts.png)
 
 Diverse spread of languages using the hashtag, English having the highest number.
 
-![Top10langkorean#coronavirus] ./images/top_10_#코로나바이러스reduced.lang_counts.png
+![Top10langkorean#coronavirus](./images/top_10_#코로나바이러스reduced.lang_counts.png)
 
 The highest number of tweets sent out with #coronavirus written in Korean is also in Korean, but a surprising number are also in English. For a future project, it would be interesting to see if these tweets were sent out by English-speaking users in Korea or multilingual Korean & English speakers from outside the country.
 
@@ -95,10 +95,10 @@ The highest number of tweets sent out with #coronavirus written in Korean is als
 
 The biggest objective of this project was to look at COVID-19 related hashtags and analyze the spread of information on social media. Could we have predicted the pandemic based on the number of sickness-related tweets being sent out right before the outbreak? Let's see. 
 
-![Allhashtagsin2020] ./images/['#coronavirus', '#corona', '#covid19', '#covid2019', '#covid-2019', '#doctor', '#hospital', '#cough']_counts.png
+![Allhashtagsin2020](./images/['#coronavirus', '#corona', '#covid19', '#covid2019', '#covid-2019', '#doctor', '#hospital', '#cough']_counts.png)
 
 These are the trends for all the hashtag this project is concerned with. As expected, the COVID-19 related hashtags spiked around March 15th, 2020, when most states began quarantine measures against the outbreak. One of the most impressive outcomes of this project was to see the parallels between real-life events and how they reflect on social media. However, the number of COVID-19 related tweets is very high compared to genereal sickness related tweets. Let's look at more general hashtags.
 
-![Sicknesshashtagsin2020] ./images/['#doctor', '#hospital', '#cough', '#nurse']_counts.png
+![Sicknesshashtagsin2020](./images/['#doctor', '#hospital', '#cough', '#nurse']_counts.png)
 
 We can see the general trend follow in this figure too, omitting the outliers. However, it is interesting to see how the general spikes in tweets containing these hashtags may have hinted towards an upcoming pandemic. For a future project, I want to dive deeper into hashtags such as `#death' `#died` `#sick` `#feelingsick` to capture any spikes in undiagnosed illnesses and deaths that may have actually occured due to COVID-19 and may have affected immunocompromised people before states realized it was a problem. 
