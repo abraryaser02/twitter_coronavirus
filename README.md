@@ -75,7 +75,7 @@ Grouping these tweets by the hashtags `#coronavirus` and `#코로나바이러스
 
 ## Results
 
-![Top10Countries#Coronavirus](./images/top_10_#coronavirusreduced.country_counts.png)
+![Top10Countries#Coronavirus](https://github.com/abraryaser02/twitter_coronavirus/blob/master/images/top_10_%23coronavirus_counts.png)
 
 The U.S. being the first country is not surprising. However, India beats Great Britain in tweets containing `#coronavirus`. India has the largest poulation of non-native English speakers in the world, so this graph shows that not all tweets containing English hashtags are necessarily from the west. 
 
